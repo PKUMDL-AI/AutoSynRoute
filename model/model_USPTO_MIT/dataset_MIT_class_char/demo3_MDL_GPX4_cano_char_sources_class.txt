@@ -1,0 +1,50 @@
+<RX_1> N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_1> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_1> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N = C = S ) c c 1
+<RX_1> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N ) c c 1
+<RX_1> C C ( = O ) N c 1 c c c ( S ( = O ) ( = O ) N C C N C ( = O ) O C ( C ) ( C ) C ) c c 1
+<RX_2> N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_2> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_2> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N = C = S ) c c 1
+<RX_2> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N ) c c 1
+<RX_2> C C ( = O ) N c 1 c c c ( S ( = O ) ( = O ) N C C N C ( = O ) O C ( C ) ( C ) C ) c c 1
+<RX_3> N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_3> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_3> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N = C = S ) c c 1
+<RX_3> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N ) c c 1
+<RX_3> C C ( = O ) N c 1 c c c ( S ( = O ) ( = O ) N C C N C ( = O ) O C ( C ) ( C ) C ) c c 1
+<RX_4> N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_4> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_4> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N = C = S ) c c 1
+<RX_4> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N ) c c 1
+<RX_4> C C ( = O ) N c 1 c c c ( S ( = O ) ( = O ) N C C N C ( = O ) O C ( C ) ( C ) C ) c c 1
+<RX_5> N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_5> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_5> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N = C = S ) c c 1
+<RX_5> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N ) c c 1
+<RX_5> C C ( = O ) N c 1 c c c ( S ( = O ) ( = O ) N C C N C ( = O ) O C ( C ) ( C ) C ) c c 1
+<RX_6> N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_6> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_6> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N = C = S ) c c 1
+<RX_6> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N ) c c 1
+<RX_6> C C ( = O ) N c 1 c c c ( S ( = O ) ( = O ) N C C N C ( = O ) O C ( C ) ( C ) C ) c c 1
+<RX_7> N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_7> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_7> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N = C = S ) c c 1
+<RX_7> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N ) c c 1
+<RX_7> C C ( = O ) N c 1 c c c ( S ( = O ) ( = O ) N C C N C ( = O ) O C ( C ) ( C ) C ) c c 1
+<RX_8> N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_8> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_8> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N = C = S ) c c 1
+<RX_8> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N ) c c 1
+<RX_8> C C ( = O ) N c 1 c c c ( S ( = O ) ( = O ) N C C N C ( = O ) O C ( C ) ( C ) C ) c c 1
+<RX_9> N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_9> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_9> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N = C = S ) c c 1
+<RX_9> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N ) c c 1
+<RX_9> C C ( = O ) N c 1 c c c ( S ( = O ) ( = O ) N C C N C ( = O ) O C ( C ) ( C ) C ) c c 1
+<RX_10> N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_10> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N C ( = S ) N C 2 C C C C 2 ) c c 1
+<RX_10> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N = C = S ) c c 1
+<RX_10> C C ( C ) ( C ) O C ( = O ) N C C N S ( = O ) ( = O ) c 1 c c c ( N ) c c 1
+<RX_10> C C ( = O ) N c 1 c c c ( S ( = O ) ( = O ) N C C N C ( = O ) O C ( C ) ( C ) C ) c c 1

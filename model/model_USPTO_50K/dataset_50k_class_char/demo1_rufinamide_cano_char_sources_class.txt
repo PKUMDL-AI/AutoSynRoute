@@ -1,0 +1,30 @@
+<RX_1> N C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_1> C O C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_1> [ N - ] = [ N + ] = N C c 1 c ( F ) c c c c 1 F
+<RX_2> N C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_2> C O C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_2> [ N - ] = [ N + ] = N C c 1 c ( F ) c c c c 1 F
+<RX_3> N C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_3> C O C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_3> [ N - ] = [ N + ] = N C c 1 c ( F ) c c c c 1 F
+<RX_4> N C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_4> C O C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_4> [ N - ] = [ N + ] = N C c 1 c ( F ) c c c c 1 F
+<RX_5> N C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_5> C O C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_5> [ N - ] = [ N + ] = N C c 1 c ( F ) c c c c 1 F
+<RX_6> N C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_6> C O C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_6> [ N - ] = [ N + ] = N C c 1 c ( F ) c c c c 1 F
+<RX_7> N C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_7> C O C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_7> [ N - ] = [ N + ] = N C c 1 c ( F ) c c c c 1 F
+<RX_8> N C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_8> C O C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_8> [ N - ] = [ N + ] = N C c 1 c ( F ) c c c c 1 F
+<RX_9> N C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_9> C O C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_9> [ N - ] = [ N + ] = N C c 1 c ( F ) c c c c 1 F
+<RX_10> N C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_10> C O C ( = O ) c 1 c n ( C c 2 c ( F ) c c c c 2 F ) n n 1
+<RX_10> [ N - ] = [ N + ] = N C c 1 c ( F ) c c c c 1 F

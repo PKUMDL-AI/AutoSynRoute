@@ -1,0 +1,6 @@
+C C ( C ) ( C ) O C ( = O ) N 1 C C N ( c 2 c c ( N ) c c 3 c 2 O C 2 ( C C C 2 ) C C 3 ) C C 1 . O = S ( = O ) ( Cl ) c 1 c c c c c 1 F
+C C ( C ) ( C ) O C ( = O ) N 1 C C N ( c 2 c c ( [N+] ( = O ) [O-] ) c c 3 c 2 O C 2 ( C C C 2 ) C C 3 ) C C 1
+O = [N+] ( [O-] ) c 1 c c ( Br ) c 2 c ( c 1 ) C C C 1 ( C C C 1 ) O 2 . C C ( C ) ( C ) O C ( = O ) N 1 C C N C C 1
+O = [N+] ( [O-] ) c 1 c c c 2 c ( c 1 ) C C C 1 ( C C C 1 ) O 2 . Br Br
+O = C 1 C C 2 ( C C C 2 ) O c 2 c c c ( [N+] ( = O ) [O-] ) c c 2 1
+C C ( = O ) c 1 c c ( [N+] ( = O ) [O-] ) c c c 1 O . O = C 1 C C C 1

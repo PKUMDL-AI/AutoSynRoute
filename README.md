@@ -2,7 +2,7 @@
 
 Code for "Automatic Retrosynthetic Route Planning Using Template-Free Models" paper
 
-http://#####
+url: https://doi.org/10.26434/chemrxiv.8168354.v1
 
 ### Requirements
 * python 3.6

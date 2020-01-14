@@ -34,7 +34,7 @@ bash data_trainer.sh t2t_data_class_char/ my_reaction_token 500000
 t2t-avg-all --model_dir=t2t_data_class_char//train --output_dir=final_model/output_avg35000_class_char-n10-cp --n=10
 ```
 Also, a pretrained model checkpoint can be found at:``` ####```.
-Copy the folder into model/model_USPTO_MIT/final_model_class_char or model/model_USPTO_50K/final_model. 
+Copy the folder into  ```model/model_USPTO_MIT/final_model_class_char or model/model_USPTO_50K/final_model```. 
 
 ### Model inference
 The weights of trained model are available on:
@@ -75,3 +75,7 @@ The ```demo_evaluation.py``` will evaluate the four demo cases mentioned in our 
 python demo_evaluation.py -o ../data/demo/output_avg35000-top10_cp2_demo1_rufinamide.txt -t ../data/demo/demo1_rufinamide_cano_char_targets.txt -d 1
 ```
 The result file can be found in ```demo_results``` folder
+
+### Route analysis
+cd directory ```route_analysis```
+

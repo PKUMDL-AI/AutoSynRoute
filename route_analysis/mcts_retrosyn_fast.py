@@ -16,15 +16,12 @@ class chemicalreaction():
         self.position=[target_smi]
 
     def Clone(self):
-
         st = chemicalreaction()
         st.position= self.position[:]
         return st
 
     def SelectPosition(self,m):
-
         self.position.append(m)
-
 
 class Node:
 
@@ -36,7 +33,6 @@ class Node:
         self.wins = 0
         self.visits = 0
         self.depth=0
-
 
     def Selectnode(self):
         ucb=[]
@@ -50,13 +46,10 @@ class Node:
         return s
 
     def Addnode(self, m, s):
-
         n = Node(position = m, parent = self, state = s)
         self.childNodes.append(n)
 
-
     def Update(self, result):
-
         self.visits += 1
         self.wins += result
 
@@ -77,8 +70,6 @@ def MCTS(root, verbose = False):
     iteration_num=0
     start_time1=time.time()
     """----------------------------------------------------------------------"""
-
-
     """global variables used for save valid compounds and simulated compounds"""
     all_valid_reaction=[]
     all_simulated_reaction=[]
@@ -88,10 +79,7 @@ def MCTS(root, verbose = False):
     depth=[]
     all_score=[]
     iter_num=1
-
-
     """----------------------------------------------------------------------"""
-
     while maxnum<opt.total_iter_num:
         print(maxnum)
         opt.iter_num=iter_num
@@ -119,17 +107,9 @@ def MCTS(root, verbose = False):
         """calculate how many nodes will be added under current leaf"""
 
         expanded=expanded_node(state.position,opt)
-        nodeadded=expanded
-
-
-        all_posible=chemreact_kn_simulation(state.position, nodeadded, opt)
-        new_reaction=all_posible
-
+        new_reaction=chemreact_kn_simulation(state.position, expanded, opt)
         node_index,score,valid_reaction,all_reaction,sim_score_ground_truth_list=check_node_type(new_reaction, opt)
         print(valid_reaction, score)
-
-
-
         print(node_index)
         all_valid_reaction.extend(valid_reaction)
         all_simulated_reaction.extend(all_reaction)
@@ -176,12 +156,10 @@ def MCTS(root, verbose = False):
             """backpropation step"""
 
             for i in range(len(node_pool)):
-
                 node=node_pool[i]
                 while node != None:
                     node.Update(re[i])
                     node = node.parentNode
-
        # if max(score) == 1:
         if sim_score_ground_truth_list!=[] and max(sim_score_ground_truth_list)==1: 
             iteration_num +=1
@@ -202,7 +180,6 @@ def MCTS(root, verbose = False):
     finished_run_time=time.time()-start_time1
 
     print("Similarity max found:", current_score)
-
     print("valid_reaction=",all_valid_reaction)
     print("num_valid:", len(all_valid_reaction))
     print("all reactions:",len(all_simulated_reaction))
@@ -228,9 +205,7 @@ def UCTchemicalreaction():
     # time_out=one_search_start_time+60*10
     state = chemicalreaction()
     best = MCTS(root = state,verbose = False)
-
     return best
-
 
 if __name__ == "__main__":
     import os
@@ -243,18 +218,12 @@ if __name__ == "__main__":
     parser.add_argument('--rx_num', type=int, default=10, help='')
     parser.add_argument('--step_len', type=int, default=6, help='')
     parser.add_argument('--total_iter_num', type=int, default=50001, help='')
-
-
-
     opt = parser.parse_args()
     target_file = os.path.join(opt.input_dir, opt.input_file)
     f=open(target_file)
     target_smi=f.readlines()[0].strip()
     f.close()
     print(target_smi)
-
     valid_reaction=UCTchemicalreaction()
     print(valid_reaction)
-
-
 

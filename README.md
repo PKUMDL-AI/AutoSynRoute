@@ -33,8 +33,7 @@ bash data_trainer.sh t2t_data_class_char/ my_reaction_token 500000
 ```bash
 t2t-avg-all --model_dir=t2t_data_class_char/train --output_dir=final_model/output_avg35000_class_char-n10-cp --n=10
 ```
-Also, a pretrained model checkpoint can be found at:``` ####```.
-Copy the folder into  ```model/model_USPTO_MIT/final_model_class_char or model/model_USPTO_50K/final_model```. 
+
 
 ### Model inference
 The weights of trained model are available on:
@@ -42,6 +41,8 @@ The weights of trained model are available on:
 model_USPTO_50K: url: https://pan.baidu.com/s/1XJg5Dh9zHnoXg1m_R6sJrA&shfl=shareset code: 28ng
 
 model_USPTO_MIT: url: https://pan.baidu.com/s/1CabKTpU-jtdHKJfGTbdBrQ&shfl=shareset code: aiym
+
+Copy the file into ```model/model_USPTO_50K/final_model``` and ```model/model_USPTO_MIT/final_model_class_char```. 
 
 cd directory ```model/model_USPTO_50K```
 

@@ -77,9 +77,9 @@ if __name__ == "__main__":
 	for line in topn_eval_class_list:
 		print(line)
 
-	result_file = os.path.join(cwd,'class_results', '{}_top{}_class_'.format(dataset,top_n) +'results.txt')
 	if not os.path.exists(os.path.join(cwd,'class_results')):
 		os.mkdir('class_results')
+	result_file = os.path.join(cwd,'class_results', '{}_top{}_class_'.format(dataset,top_n) +'results.txt')
 	with open(result_file, "w") as f:
 		f.write("###### {:>4}  {:>4} ######".format("Total","Classes") + "\n")
 		f.write('\t'.join(['{:>8}'.format(x) for x in ["Rxn Class","Matched","Total", "Top-{} Accuracy".format(top_n)]])+'\n')

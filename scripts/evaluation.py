@@ -63,9 +63,9 @@ def pred_topn_eval(ix):
 			continue
 	return pred_true
 
-result_file = os.path.join(cwd,'results', '{}_top{}'.format(dataset, top_n) + '_test_results'+'.txt')
 if not os.path.exists(os.path.join(cwd,'results')):
 	os.mkdir('results')
+result_file = os.path.join(cwd,'results', '{}_top{}'.format(dataset, top_n) + '_test_results'+'.txt')
 
 if __name__ == "__main__":
 #calculate invalid SMILES rate

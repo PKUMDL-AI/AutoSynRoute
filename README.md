@@ -42,7 +42,7 @@ model_USPTO_50K: url: https://pan.baidu.com/s/1XJg5Dh9zHnoXg1m_R6sJrA&shfl=share
 
 model_USPTO_MIT: url: https://pan.baidu.com/s/1CabKTpU-jtdHKJfGTbdBrQ&shfl=shareset code: aiym
 
-Copy the file into ```model/model_USPTO_50K/final_model``` and ```model/model_USPTO_MIT/final_model_class_char```. 
+Copy the files into ```model/model_USPTO_50K/final_model``` and ```model/model_USPTO_MIT/final_model_class_char```, respectively. 
 
 cd directory ```model/model_USPTO_50K```
 

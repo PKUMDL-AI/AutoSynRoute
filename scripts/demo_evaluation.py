@@ -61,9 +61,10 @@ if __name__ == "__main__":
 	for line in demo_eval_list:
 		print(line)	
 	#save results to files
-	result_file = os.path.join(cwd,'demo_results', 'demo_{}_top{}_'.format(demo, top_n) +'results.txt')
+
 	if not os.path.exists(os.path.join(cwd,'demo_results')):
 		os.mkdir('demo_results')
+	result_file = os.path.join(cwd,'demo_results', 'demo_{}_top{}_'.format(demo, top_n) +'results.txt')
 	with open(result_file, "w") as f:
 		f.write("###### {:>4} {:>4} ######".format("Demo", demo) + "\n")
 		f.write('\t'.join(['{:>8}'.format(x) for x in ["Matched Step","Ranking","Reaction Class"]])+'\n')

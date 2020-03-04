@@ -126,7 +126,7 @@ def MCTS(root, verbose = False):
             for i in range(len(node_index)):
                 m=node_index[i]
                 maxnum=maxnum+1
-                node.Addnode(nodeadded[m],state)
+                node.Addnode(expanded[m],state)
                 node_pool.append(node.childNodes[i])
                 if score[i]>=max_score:
                     max_score=score[i]
@@ -217,7 +217,7 @@ if __name__ == "__main__":
     # parser.add_argument('--output_json_file', type=str,default="t2s_json_out.json", help='')
     parser.add_argument('--rx_num', type=int, default=10, help='')
     parser.add_argument('--step_len', type=int, default=6, help='')
-    parser.add_argument('--total_iter_num', type=int, default=50001, help='')
+    parser.add_argument('--total_iter_num', type=int, default=5001, help='')
     opt = parser.parse_args()
     target_file = os.path.join(opt.input_dir, opt.input_file)
     f=open(target_file)

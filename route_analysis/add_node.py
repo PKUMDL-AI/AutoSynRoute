@@ -168,6 +168,7 @@ def check_node_type(new_reaction, opt):
                 #sim_scaf_ground_truth = cal_similarity_with_FP(source_smi, source_scaf)
             except:
                 sim_score = -1000
+                sim_score_ground_truth = -10
             node_index.append(i)
             valid_reaction.append(new_reaction[i])
             score_one = sim_score

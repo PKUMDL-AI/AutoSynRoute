@@ -82,10 +82,10 @@ cd directory ```route_analysis```
 
 1. Preparing tensor2tensor serving.
 
- Please refer to this url "https://github.com/tensorflow/tensor2tensor/tree/master/tensor2tensor/serving".
+    Please refer to this url "https://github.com/tensorflow/tensor2tensor/tree/master/tensor2tensor/serving".
 
 2. Run MCTS
 ```bash
 python mcts_retrosyn_fast.py --input_dir demo_a
 ```
- The predicted pathways can be found in ```demo_a/route_output``` folder
+    The predicted pathways can be found in ```demo_a/route_output``` folder

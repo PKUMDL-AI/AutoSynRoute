@@ -89,4 +89,4 @@ cd directory ```route_analysis```
 ```bash
 python mcts_retrosyn_fast.py --input_dir demo_a
 ```
-    The predicted pathways can be found in ```demo_a/route_output``` folder
+The predicted pathways can be found in `demo_a/route_output` folder

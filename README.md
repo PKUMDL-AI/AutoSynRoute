@@ -1,8 +1,8 @@
 # AutoSynRoute
 
-Code for "Automatic Retrosynthetic Route Planning Using Template-Free Models" paper
+Code for "Automatic Retrosynthetic Route Planning Using Template-Free Models" paper in Chemical Science
 
-url: https://doi.org/10.26434/chemrxiv.8168354.v1
+url: https://pubs.rsc.org/en/Content/ArticleLanding/2020/SC/C9SC03666K#!divAbstract
 
 ### Requirements
 * python 3.6

@@ -7,7 +7,7 @@ url: https://pubs.rsc.org/en/Content/ArticleLanding/2020/SC/C9SC03666K#!divAbstr
 ### Requirements
 * python 3.6
 * tensorflow 1.12.0
-* tensor2tensor 1.13
+* tensor2tensor 1.12
 
 
 
